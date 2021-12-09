@@ -1,0 +1,27 @@
+{
+  "build": {
+    "core": "arduino", 
+    "extra_flags": "-DARDUINO_ARCH_AVR -DSOFT_1MHZ", 
+    "f_cpu": "1000000L", 
+    "mcu": "atmega328p", 
+    "variant": "standard"
+  }, 
+  "frameworks": [
+    "arduino"
+  ], 
+  "fuses": {
+    "efuse": "0x06", 
+    "hfuse": "0xDE", 
+    "lfuse": "0xE2"
+  }, 
+  "name": "ATmega328p 8/1 MHz internal RC optiboot", 
+  "upload": {
+    "maximum_ram_size": 2048, 
+    "maximum_size": 32256, 
+    "protocol": "arduino", 
+    "require_upload_port": true, 
+    "speed": 57600
+  }, 
+  "url": "https://github.com/requireiot", 
+  "vendor": "Bernd Waldmann"
+}
