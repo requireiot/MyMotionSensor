@@ -17,6 +17,18 @@
    SPDX-License-Identifier: MPL-2.0
 */
 
+/*
+ * Relies on MySensors, Created by Henrik Ekblad <henrik.ekblad@mysensors.org>.
+ * Note that the MySensors library is under GPL, so 
+ * - if you want to combine this source code file with the MySensors library 
+ *   and redistribute it, then read the GPL to find out what is allowed.
+ * - if you want to combine this file with the MySensors library and only 
+ *   use it at home, then read the GPL to find out what is allowed.
+ * - if you want to take just this source code, learn from it, modify it, and 
+ *   redistribute it, independent from MySensors, then you have to abide by 
+ *   my license rules (MPL 2.0), which imho are less demanding than the GPL.
+ */
+
 // standard headers
 #include <avr/boot.h>
 #include <util/delay.h>
